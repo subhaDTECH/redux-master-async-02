@@ -1,0 +1,5 @@
+.crasoul_img{
+    width: 100vw !important;
+    height:90vh;
+    object-fit: cover;
+  }

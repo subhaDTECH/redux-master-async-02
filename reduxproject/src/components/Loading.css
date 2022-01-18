@@ -1,0 +1,21 @@
+.loading__conatiner{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+}
+.loading_box{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+    border-bottom: 5px solid grey;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(-360deg);
+    }
+}

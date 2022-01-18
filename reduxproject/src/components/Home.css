@@ -1,0 +1,26 @@
+.home__banner__text{
+    margin: 30px  auto;
+    text-align: center;
+}
+.card__Poduct{
+    width: 30%;
+    cursor: pointer;
+    border: 1px solid gray;
+    text-decoration: none;
+    color: gray;
+    text-align: justify;
+
+}
+.card__Poduct:hover{
+    color: rgb(181, 173, 173);
+    transition: all 0.5s;
+    transform: translateY(-10px);
+}
+.card__Poduct >p{
+    text-align: center;
+    padding: 10px;
+}
+.card__Poduct >img{
+    max-width: 300px;
+    max-height: 300px;
+}

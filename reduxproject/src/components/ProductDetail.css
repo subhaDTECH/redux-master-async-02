@@ -1,0 +1,16 @@
+.product__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_img{
+    width:300px;
+
+}
+.left_side_box{
+    border:1px solid grey;
+   
+}
+.right_side_box{
+    border: 1px solid gray;
+}
